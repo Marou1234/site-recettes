@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site web de restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    :root{
+    --color1: #D89584;
+    --color2: #F4F4F4;
+}
+body{
+    margin: 0;
+    font-family: arial;
+    line-height: 1.5;
+}
+div.cover{
+    background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+}
+img.cover_profile{
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+
+
+    div.texte-avec-ligne-verticale{
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+    height: 50px;
+    display: inline-block;
+
+}
+    
+div.barre-verticale{
+    height: 50px;
+    width: 4px;
+    background-color: var(--color1);
+    margin-right: 8px;
+}
+.col-portfolio{
+    width: 47%;
+}
+div.frame{
+    margin: 30px 50px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+p.frame-title{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*PORTFOLIO*/
+   .portfolio-header{
+        height: 90px;
+        background-color:url(header.jpg)no-repeat center/cover;
+        position: relative;
+    }
+
+.portfolio-header-title{
+     font-size:26px;
+     font-weight: bold;
+     color: white;
+     padding-top: 4px; 
+     padding-left:8px;
+     }
+
+     h1.portfolio {
+        font-size: 46px;
+        color: black;
+        line-height: 1;
+        padding-top: 10px;
+     }
+     
+      h2.portfolio {
+        font-size: 26px;
+        color: black;
+         font-weight: normal;
+         margin-bottom: 0;
+      }
+
+      a.portfolio-back {
+       color: var(--color1) ;
+       margin-left: -10px;
+      }
+</style>
+
+
+<body>
+
+    <!--HEADER-->
+     <div class="portfolio-header">
+        <div class="texte-avec-ligne-verticale"
+        style="margin-left: 16px; margin-top: 22px ;height: 45px">      
+            <p class="portfolio-header-title">REVAKA maroussia Lodrica</p>
+         </div>
+        <a class="contact-button"
+        style="position: absolute; right:0;>
+        <a class="contact-button" href="mailto:@gmail.comaroussialodricarevakam?subject=contact%20depuis%20maroussialodricarevaka.com">ME CONTACTER</a>
+
+    </div>
+
+        <!--SECTION GRISE TITRE-->
+     <div class="section section-grise1 "style="padding-top:20px">
+        <a class="portfolio-back" href="index.html">Retour</a>
+		<div class="separateur" style="margin-top: -12px;"></div>
+		<h1 class="portfolio">Portfolio</h1>
+        <h2 class="portfolio">Site web pour un restaurant</h2>
+	</div>
+
+    <!--SECTION CONTENU-->
+    <div class="section">  
+    <div class="texte-avec-ligne-verticale">
+        J’ai réalisé ce projet web pour un client travaillant dans le domaine de la restauration.
+
+        L’objectif ? Permettre à ce restaurant de gagner en visibilité et de proposer son menu de pizzas aux utilisateurs.
+        
+        Mon client, étant novice dans les nouvelles technologies, à la possibilité de modifier facilement son menu en ligne grâce à une interface d’administration sur-mesure que j’ai réalisé.
+        
+        Ce projet simple mais fonctionnel a donné entière satisfaction à mon client. 
+        <br><br>
+        <u>Technologies utilisées :</u> <b>HTML, CSS, DJANGO, PYTHON, HEROKU</b>
+        <p> 
+            <div style="text-align: center;margin-top: 30px;">
+                <a href="https://jrpizzamamadjango2.herokuapp.com"><img class="portfolio" src="project1.jpg">
+            <a style="display: block; margin-top: 8px;"href="https://jrpizzamamadjango2.herokuapp.com">consulter le projet </a>
+                
+            </div>
+            <!--FRAME-->
+    <div class="section">
+		<div class="frame">
+			<p class="frame-title">Parlons de votre projet</p>
+			<table  style="width: 100%">
+				<tr>
+					<td valign="top" align="center"><img src="profile.jpg" style="width: 100px"></td>
+					<td>
+						<div class="texte-avec-ligne-vertivale"
+						 style="margin-left: 20px">
+						<p>
+							Besoin de discuter de votre projet et obtenir l'avis de quelqu'un qui s'y connais?
+                            <br><br>
+	                        <a href="mailto:maroussialodricarevaka@gmail.com?subject=contact%20depuis%20a.maroussialodricarevakacom" contacte moi par email</a>ou par telephone <a href="tel:+261321455314">+261 32 1455314</a>.
+						</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+</body>
+</html> 
